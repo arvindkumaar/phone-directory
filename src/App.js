@@ -1,4 +1,4 @@
-
+import React from 'react';
 import Header from './Header';
 import './App.css';
 
@@ -21,7 +21,7 @@ function App() {
     
 
     <div>
-      <Header/>
+      <Header heading = "Phone Directory"/>
         <div className="component-body-container">
           <button className="custom-btn add-btn">Add</button>
 
